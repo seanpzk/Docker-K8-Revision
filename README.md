@@ -1,3 +1,28 @@
+# Project Reflection and Learning Journey 🗒️(by seanpzk)
+
+## Description:
+Reecapping my Docker & Kubernetes fundamentals through a full 6 hour course by freeCodeCamp
+## Learnings:
+- Comprehensive recap of my learnings from 1 hour [docker](https://github.com/seanpzk/docker-in-1-hour) and [kubernetes](https://github.com/seanpzk/k8s-in-1-hour) courses.
+  
+( ⚠️ Disclaimer: Content below are very disjoint because they are bits of details left out from the above mentioned courses)
+- Dashboards for easier management of kubernetes servers
+  - Common tools: Lens, K9s, Web-based UI by Kubernetes
+- Context specifies which cluster kubectl interact with 
+- Probes ensures health and readiness of containerized applications in pods
+- DaemonSet ensures that a specific pod runs on all (unless specified) nodes in a cluster
+  - Possible use case: Used for node-specific tasks such as log collection or network proxies
+
+## Tools used:
+- **Minikube** to follow along the tutorial
+
+## Acknowledgments:
+Thank you [freeCodeCamp](https://www.youtube.com/@freecodecamp) for the free course!
+
+<br>
+<br>
+
+# README content from the original project below!
 # Docker and Kubernetes Fundamentals Hands-On labs
 
 Files for the **Docker and Kubernetes Fundamentals** Hands-On labs
